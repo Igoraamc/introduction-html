@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto';
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#gender {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#gender span {
+  margin-right: 20px;
+}
+
+#container {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #dadada;
+}
+
+#container .shoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#container .shoes .small-card {
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.195;
+}
+
+#container .shoes .small-card img {
+  height: 150px;
+  width: 150px;
+}
+
+#container .shoes .small-card .shoes-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#container .shoes .small-card .shoes-price {
+  font-weight: bold;
+  color: red;
+}
+
+#container .marketing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#container .marketing .large-card {
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex: 0.6;
+}
+
+#container .marketing .large-card .first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container .marketing .large-card .first-section span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#container .marketing .large-card .first-section .shop-button {
+  background-color: #c9192e;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#container .marketing .medium-card {
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.395;
+}
